@@ -2,6 +2,9 @@ name: Build
 
 on: [push]
 
+watch:
+    types: started
+
 jobs:
   build-linux:
     runs-on: ubuntu-latest
